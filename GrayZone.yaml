@@ -3,7 +3,7 @@
 
 log-view:
   nickname-format: '%n: '
-  scroller-highlight-color: '#f0f'
+  scroller-highlight-color: '#333'
 input-text:
   font-family: 'Lucida Grande'
   font-size: 13.0
@@ -15,20 +15,26 @@ member-list:
   color: '#333'
   background-color: '#eee'
   operator:
-    color: '#500'
+    color: '#700'
   selected:
     color: '#eee'
-    background-color: '#333'
+    background:
+      top-line-color: '#333'
+      bottom-line-color: '#333'
+      top-color: '#333'
+      bottom-color: '#333'
 server-tree:
   font-family: 'Lucida Grande'
   font-size: 13.0
-  background-color: '#333'
+  background-color: '#eee'
   highlight:
     color: '#eee'
+    background-color: '#eea'
   newtalk:
-    color: '#eea'
+    color: '#333'
   unread:
-    color: '#eaa'
+    color: '#800'
+    font-weight: 'bold'
   normal:
     active:
       color: '#aaa'
@@ -36,8 +42,11 @@ server-tree:
       color: '#666'
   selected:
     active:
-      color: '#fff'
+      color: '#333'
     inactive:
-      color: '#888'
+      color: '#666'
     background:
-      color: '#444'
+      top-line-color: '#aaa'
+      bottom-line-color: '#aaa'
+      top-color: '#aaa'
+      bottom-color: '#aaa'
