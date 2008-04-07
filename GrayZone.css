@@ -46,7 +46,7 @@ a { color: #a33; }
 .url { word-break: break-all; }
 .address { text-decoration: underline; word-break: break-all; }
 .highlight { color: #a33; font-weight: bold; }
-.time { color: #555; font-size: 0.9em; margin-left: 1ex; float: right; }
+.time { color: #555; font-size: 0.9em; margin-right: 1ex; float: left; }
 .place { color: #555; }
 
 /* nickname for text messages */
