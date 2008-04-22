@@ -50,8 +50,8 @@ a { color: #a33; }
 .place { color: #555; }
 
 /* nickname for text messages */
-.sender[type=myself] { color: #555; }
-.sender[type=normal] { color: #333; }
+.sender[type=myself] { color: #555; font-weight: bold; }
+.sender[type=normal] { color: #333; font-weight: bold; }
 .sender[type=normal][colornumber='0'] {}
 .sender[type=normal][colornumber='1'] {}
 .sender[type=normal][colornumber='2'] {}
